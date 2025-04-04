@@ -96,6 +96,12 @@ main img{
     width: 100%;
 }
 
+.celular {
+    width: 80%;
+    margin: auto;
+    display: block;
+}
+
 main img.pequeno {
     max-width: 375px;
     margin: auto;
@@ -103,6 +109,8 @@ main img.pequeno {
     imagens não são blocos*/
 
 }
+
+
 
 div.video {
     background-color: var(--cor5);
@@ -154,14 +162,14 @@ main a:hover {
     background-color: var(--cor2);
 }
 
-aside {
+#lista {
     background-color: var(--cor1);
     padding: 10px;
     border-radius: 10px;
     box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.282);
 }
 
-aside h3 {
+#lista h3 {
     color: white;
     font-family: var(--fonte-padrão);
     font-size: 2em;
@@ -172,14 +180,14 @@ aside h3 {
     padding: 7px;
 }
 
-aside ul {
+#lista ul {
     list-style-position: inside; /* deixar a lista dentro do aside*/
     columns: 2;
     list-style: '\2714\00A0\00A0';
     padding-left: 20px;
 }
 
-aside a {
+#lista a {
     color: var(--cor5);
     font-size: bolder;
     text-decoration: none;
@@ -188,9 +196,46 @@ aside a {
     border-radius: 2px;
 }
 
-aside a:hover {
+#lista a:hover {
     text-decoration: underline;
     background-color: var(--cor3);
+}
+#cont {
+    background-color: var(--cor1);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.282);
+}
+
+#cont h3 {
+    color: white;
+    font-family: var(--fonte-padrão);
+    font-size: 2em;
+    text-indent: 20px;
+    background-color: var(--cor3);
+    border-radius: 10px 10px 0px 0px;
+    margin: -10px -10px 0px -10px;
+    padding: 7px;
+    text-align: center;
+}
+
+#cont p {
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: bolder;
+    padding-bottom: 20px;
+}
+#cont ul {
+    list-style-position: inside; /* deixar a lista dentro do aside*/
+    list-style: '\2714\00A0\00A0';
+    padding-left: 20px;
+    
+}
+
+#cont li {
+    padding-bottom: 20px;
+    font-weight: bolder;
+    font-size: 1em;
 }
 
 footer {
