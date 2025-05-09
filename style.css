@@ -48,7 +48,7 @@ header > h1 {
     margin-bottom: 40px;
     font-size: 3em;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.334);
-
+    font-weight: normal;
 }
 
 header > p {
